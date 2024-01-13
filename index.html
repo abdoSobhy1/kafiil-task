@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>kafiil - Task</title>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header>
+        <div class="container">
+          <button class="toggle-menu">
+            <img src="./images/bars-solid.svg" alt="menu" />
+          </button>
+          <div class="logo">
+            <img src="./images/logo.png" alt="kafiil logo" />
+          </div>
+          <nav class="main-navigation">
+            <ul class="menu">
+              <li class="mob-only">
+                <a href="#"
+                  ><img src="./images/logo.png" alt="kafiil" class="logo"
+                /></a>
+                <button class="close">
+                  <img src="./images/xmark-solid.svg" alt="close" />
+                </button>
+              </li>
+              <li>
+                <a href="#" class="active">
+                  <img src="./images/auctions.png" alt="auctions" />
+                  <span>Auctions</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/contests.png" alt="contests" />
+                  <span>Contests</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/project.png" alt="project" />
+                  <span>Project</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/portofolios.png" alt="portofolios" />
+                  <span>Portofolios</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/freelancers.png" alt="freelancers" />
+                  <span>Freelancers</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/forum.png" alt="forum" />
+                  <span>Forum</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="user-actions">
+            <div class="message">
+              <img src="./images/message.png" alt="message" class="main" />
+              <span class="dot">10</span>
+            </div>
+            <div class="notification">
+              <img src="./images/bell.png" alt="notification" class="main" />
+              <span class="dot">10</span>
+            </div>
+            <div class="profile">
+              <div class="image">
+                <img src="./images/user.png" alt="profile" />
+              </div>
+            </div>
+            <div class="drop-down">
+              <div class="profile-info">
+                <div class="profile-image">
+                  <img src="./images/user.png" alt="profile" />
+                </div>
+                <div class="profile-name">
+                  <h4>Ahmed Ali</h4>
+                  <span>Student</span>
+                </div>
+              </div>
+              <ul class="menu">
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./images/profile.png" alt="profile" />
+                      My Profile
+                    </div>
+                  </a>
+                </li>
+                <div class="acc-settings">
+                  <li>
+                    <a href="#">
+                      <div>
+                        <img src="./images/moon.png" alt="settings" />
+                        dark mode
+                      </div>
+                      <div class="switch">
+                        <input type="checkbox" id="switch" checked />
+                        <label for="switch"></label>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div>
+                        <img src="./images/language.png" alt="languages" />
+                        Language
+                      </div>
+                      <div class="lang">
+                        <button>
+                          <img src="./images/flag.png" alt="egypt" />
+                          <span>العربية</span>
+                        </button>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#">
+                      <div>
+                        <img src="./images/settings.png" alt="settings" />
+                        Account Settings
+                      </div>
+                    </a>
+                  </li>
+                </div>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./images/logout.png" alt="logout" />
+                      Logout
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="overlay"></div>
+      </header>
+      <main class="page">
+        <div class="container grid-container">
+          <div class="content">
+            <div class="job-title">
+              <div class="category">
+                <p><a href="#">Design</a> / <a href="#">Logo Design</a></p>
+              </div>
+              <div class="title">
+                <h2>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+                  nisi, cras neque Lorem ipsum dolor sit amet,
+                </h2>
+              </div>
+              <div class="info">
+                <div class="rating">
+                  <div class="stars">
+                    <img src="./images/star-gold.png" alt="star" />
+                    <img src="./images/star-gold.png" alt="star" />
+                    <img src="./images/star-gold.png" alt="star" />
+                    <img src="./images/star-gold.png" alt="star" />
+                    <img src="./images/star.png" alt="star" />
+                  </div>
+                  <span class="rate">4.1</span>
+                  <span class="number"> (500)</span>
+                </div>
+                <div class="actions">
+                  <button class="share">
+                    <img src="./images/share.png" alt="share" />
+                  </button>
+                  <button class="favourite">
+                    <img src="./images/fav.png" alt="favourite" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="slider">
+              <div class="slider-wrapper">
+                <div class="slider-inner">
+                  <div class="slide">
+                    <img src="./images/slide.png" alt="slide" />
+                  </div>
+                  <div class="slide">
+                    <img src="./images/slide.png" alt="slide" />
+                  </div>
+                  <div class="slide">
+                    <img src="./images/slide.png" alt="slide" />
+                  </div>
+                </div>
+              </div>
+              <div class="slider-controls">
+                <button class="prev disabled">
+                  <img src="./images/chevron-left.png" alt="prev" />
+                </button>
+                <button class="next">
+                  <img src="./images/chevron-right-active.png" alt="next" />
+                </button>
+              </div>
+              <div class="dots"></div>
+            </div>
+            <div class="description">
+              <h3 class="section-title">Description</h3>
+              <p class="white-wrapper">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+                nisi, cras neque Lorem ipsum dolor sit amet, Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit. Diam nisi, cras neque
+                Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Diam nisi, cras neque Lorem ipsum
+                dolor sit amet, Lorem ipsum dolor sit amet. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit. Diam nisi, cras neque
+                Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+            <div class="add-ons">
+              <div class="head">
+                <h3 class="section-title">Service Add-Ons</h3>
+                <div class="selectall">
+                  <input type="checkbox" id="selectall" />
+                  <label for="selectall">Select All</label>
+                </div>
+              </div>
+              <div class="add-on white-wrapper">
+                <div class="details">
+                  <div class="check">
+                    <input type="checkbox" id="check1" checked />
+                    <label for="check1"></label>
+                  </div>
+                  <p class="title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Diam nisi, cras neque Lorem ipsum dolor sit amet, Lorem
+                    ipsum dolor sit amet.
+                  </p>
+                </div>
+                <div class="info">
+                  <div class="price">
+                    <span class="price">$100</span>
+                  </div>
+                  <div class="delivery">
+                    <span class="time">2 days</span>
+                  </div>
+                </div>
+              </div>
+              <div class="add-on white-wrapper">
+                <div class="details">
+                  <div class="check">
+                    <input type="checkbox" id="check2" />
+                    <label for="check2"></label>
+                  </div>
+                  <p class="title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Diam nisi, cras neque Lorem ipsum dolor sit amet, Lorem
+                    ipsum dolor sit amet.
+                  </p>
+                </div>
+                <div class="info">
+                  <div class="price">
+                    <span class="price">$100</span>
+                  </div>
+                  <div class="delivery">
+                    <span class="time">2 days</span>
+                  </div>
+                </div>
+              </div>
+              <div class="add-on white-wrapper">
+                <div class="details">
+                  <div class="check">
+                    <input type="checkbox" id="check3" />
+                    <label for="check3"></label>
+                  </div>
+                  <p class="title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Diam nisi, cras neque Lorem ipsum dolor sit amet, Lorem
+                    ipsum dolor sit amet.
+                  </p>
+                </div>
+                <div class="info">
+                  <div class="price">
+                    <span class="price">$100</span>
+                  </div>
+                  <div class="delivery">
+                    <span class="time">2 days</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="purchase">
+              <h3 class="section-title">Purchase Service</h3>
+              <div class="purchase-wrapper white-wrapper">
+                <div class="purchase-info">
+                  <div class="quantity">
+                    <button class="decrement">-</button>
+                    <input
+                      type="number"
+                      id="quantity"
+                      value="1"
+                      min="1"
+                      disabled
+                    />
+                    <button class="increment">+</button>
+                  </div>
+                  <div class="price">$<span>100</span></div>
+                </div>
+                <button class="confirm main-btn">Purchase</button>
+              </div>
+            </div>
+            <div class="ratings">
+              <div class="title">
+                <div class="stars">
+                  <img src="./images/star-gold.png" alt="star" />
+                  4.6
+                </div>
+                <h3 class="section-title">Service Rating</h3>
+                <p>. 46 Ratings</p>
+              </div>
+              <div class="ratings-overview white-wrapper">
+                <div class="category">
+                  <div class="category-title">
+                    Work Quality
+                    <div class="stars">
+                      <img src="./images/star-gold.png" alt="star" />
+                      <span>5.0</span>
+                    </div>
+                  </div>
+                  <div class="stars-average">
+                    <img src="./images/star-gold.png" alt="star" />
+                    <img src="./images/star-gold.png" alt="star" />
+                    <img src="./images/star-gold.png" alt="star" />
+                    <img src="./images/star-gold.png" alt="star" />
+                    <img src="./images/star.png" alt="star" />
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar">
+                      <div class="progress-value" style="width: 80%"></div>
+                    </div>
+                    <p class="rates-number">4</p>
+                  </div>
+                </div>
+                <div class="category">
+                  <div class="category-title">
+                    Communication & Collaboration
+                    <div class="stars">
+                      <img src="./images/star-gold.png" alt="star" />
+                      <span>5.0</span>
+                    </div>
+                  </div>
+                  <div class="stars-average">
+                    <img src="./images/star-gold.png" alt="star" />
+                    <img src="./images/star-gold.png" alt="star" />
+                    <img src="./images/star-gold.png" alt="star" />
+                    <img src="./images/star-gold.png" alt="star" />
+                    <img src="./images/star.png" alt="star" />
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar">
+                      <div class="progress-value" style="width: 80%"></div>
+                    </div>
+                    <p class="rates-number">4</p>
+                  </div>
+                </div>
+                <div class="category">
+                  <div class="category-title">
+                    Adherence to Schedule
+                    <div class="stars">
+                      <img src="./images/star-gold.png" alt="star" />
+                      <span>5.0</span>
+                    </div>
+                  </div>
+                  <div class="stars-average">
+                    <img src="./images/star-gold.png" alt="star" />
+                    <img src="./images/star-gold.png" alt="star" />
+                    <img src="./images/star-gold.png" alt="star" />
+                    <img src="./images/star-gold.png" alt="star" />
+                    <img src="./images/star.png" alt="star" />
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar">
+                      <div class="progress-value" style="width: 80%"></div>
+                    </div>
+                    <p class="rates-number">4</p>
+                  </div>
+                </div>
+              </div>
+              <div class="ratings-wrapper white-wrapper">
+                <div class="review">
+                  <div class="user">
+                    <div class="image">
+                      <img src="./images/jane.png" alt="user" />
+                    </div>
+                  </div>
+                  <div class="review-content">
+                    <h4 class="name">Jane Smith</h4>
+                    <div class="rating">
+                      <div class="stars">
+                        <img src="./images/star-gold.png" alt="star" />
+                        <img src="./images/star-gold.png" alt="star" />
+                        <img src="./images/star-gold.png" alt="star" />
+                        <img src="./images/star-gold.png" alt="star" />
+                        <img src="./images/star.png" alt="star" />
+                        <span class="time"> . 30m</span>
+                      </div>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Diam nisi, cras neque Lorem ipsum dolor sit amet,Lorem
+                      ipsum dolor sit amet, consectetur adipiscing elit....
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Diam nisi, cras neque Lorem ipsum dolor sit amet,Lorem
+                      ipsum dolor sit amet, consectetur adipiscing eli
+                    </p>
+                  </div>
+                </div>
+                <div class="review">
+                  <div class="user">
+                    <div class="image">
+                      <img src="./images/jane.png" alt="user" />
+                    </div>
+                  </div>
+                  <div class="review-content">
+                    <h4 class="name">Jane Smith</h4>
+                    <div class="rating">
+                      <div class="stars">
+                        <img src="./images/star-gold.png" alt="star" />
+                        <img src="./images/star-gold.png" alt="star" />
+                        <img src="./images/star-gold.png" alt="star" />
+                        <img src="./images/star-gold.png" alt="star" />
+                        <img src="./images/star.png" alt="star" />
+                        <span class="time"> . 30m</span>
+                      </div>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Diam nisi, cras neque Lorem ipsum dolor sit amet,Lorem
+                      ipsum dolor sit amet, consectetur adipiscing elit....
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Diam nisi, cras neque Lorem ipsum dolor sit amet,Lorem
+                      ipsum dolor sit amet, consectetur adipiscing eli
+                    </p>
+                  </div>
+                </div>
+                <div class="review">
+                  <div class="user">
+                    <div class="image">
+                      <img src="./images/jane.png" alt="user" />
+                    </div>
+                  </div>
+                  <div class="review-content">
+                    <h4 class="name">Jane Smith</h4>
+                    <div class="rating">
+                      <div class="stars">
+                        <img src="./images/star-gold.png" alt="star" />
+                        <img src="./images/star-gold.png" alt="star" />
+                        <img src="./images/star-gold.png" alt="star" />
+                        <img src="./images/star-gold.png" alt="star" />
+                        <img src="./images/star.png" alt="star" />
+                        <span class="time"> . 30m</span>
+                      </div>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Diam nisi, cras neque Lorem ipsum dolor sit amet,Lorem
+                      ipsum dolor sit amet, consectetur adipiscing elit....
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Diam nisi, cras neque Lorem ipsum dolor sit amet,Lorem
+                      ipsum dolor sit amet, consectetur adipiscing eli
+                    </p>
+                  </div>
+                </div>
+                <div class="add-review">
+                  <div class="user">
+                    <img src="./images/user.png" alt="user" />
+                  </div>
+                  <div class="review-form">
+                    <textarea
+                      name="review"
+                      id="review"
+                      placeholder="Write your review in here"
+                    ></textarea>
+                    <button class="post-review main-btn">Post Review</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <aside class="sidebar">
+            <div class="seller white-wrapper">
+              <h3 class="sidebar-title">Seller</h3>
+              <div class="user">
+                <div class="image">
+                  <img src="./images/jane-2.png" alt="user" />
+                  <span class="dot"></span>
+                </div>
+                <div class="info">
+                  <div class="name">
+                    <h4>Jane Smith</h4>
+                    <img src="./images/verified.png" alt="verified" />
+                  </div>
+                  <div class="location">
+                    <img src="./images/location pin.png" alt="location" />
+                    <span>Cairo, Egypt</span>
+                  </div>
+                  <div class="rating">
+                    <div class="stars">
+                      <img src="./images/star-gold.png" alt="star" />
+                      <img src="./images/star-gold.png" alt="star" />
+                      <img src="./images/star-gold.png" alt="star" />
+                      <img src="./images/star-gold.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                    </div>
+                    <span class="rate">4.1 (500)</span>
+                  </div>
+                </div>
+                <div class="actions">
+                  <button>
+                    <img src="./images/prize.png" alt="award" />
+                  </button>
+                  <button>
+                    <img src="./images/out.png" alt="arrow" />
+                  </button>
+                  <button>
+                    <img src="./images/id.png" alt="profile" />
+                  </button>
+                </div>
+                <p class="intro">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+                  Lorem ipsum dolor sit amet..
+                </p>
+                <button class="main-btn">Contact Me</button>
+              </div>
+            </div>
+            <div class="white-wrapper information">
+              <h3 class="sidebar-title">Info</h3>
+              <div class="info-wrapper">
+                <div class="info">
+                  <div class="title">
+                    <img src="./images/Currency.png" alt="Price" />
+                    <span>Price</span>
+                  </div>
+                  <div class="value">$10</div>
+                </div>
+                <div class="info">
+                  <div class="title">
+                    <img src="./images/time.png" alt="Time" />
+                    <span>Delivery Duration</span>
+                  </div>
+                  <div class="value">1 day</div>
+                </div>
+                <div class="info">
+                  <div class="title">
+                    <img src="./images/basket.png" alt="orders" />
+                    <span>In progress orders</span>
+                  </div>
+                  <div class="value">2</div>
+                </div>
+                <div class="info">
+                  <div class="title">
+                    <img src="./images/customers.png" alt="customers" />
+                    <span>customers</span>
+                  </div>
+                  <div class="value">2</div>
+                </div>
+                <div class="info">
+                  <div class="title">
+                    <img src="./images/percentage.png" alt="sales" />
+                    <span>Sales</span>
+                  </div>
+                  <div class="value">$25</div>
+                </div>
+                <div class="info">
+                  <div class="title">
+                    <img src="./images/cat.png" alt="category" />
+                    <span>category</span>
+                  </div>
+                  <div class="value">design</div>
+                </div>
+                <div class="info">
+                  <div class="title">
+                    <img src="./images/cat.png" alt="category" />
+                    <span>Subcategory</span>
+                  </div>
+                  <div class="value">Logo Design</div>
+                </div>
+              </div>
+            </div>
+            <div class="share white-wrapper">
+              <h3 class="sidebar-title">Share & Earn</h3>
+              <ul>
+                <li style="--bg: #2867b2">
+                  <a href="#">
+                    <img
+                      src="./images/linkedin.png"
+                      alt="linkedin"
+                      title="Linkedin"
+                    />
+                  </a>
+                </li>
+                <li style="--bg: #1877f2">
+                  <a href="#">
+                    <img
+                      src="./images/facebook.png"
+                      alt="facebook"
+                      title="Facebook"
+                    />
+                  </a>
+                </li>
+                <li style="--bg: #25d366">
+                  <a href="#">
+                    <img
+                      src="./images/whatsapp.png"
+                      alt="whatsapp"
+                      title="Whatsapp"
+                    />
+                  </a>
+                </li>
+                <li style="--bg: #1da1f2">
+                  <a href="#">
+                    <img
+                      src="./images/twitter.png"
+                      alt="twitter"
+                      title="twitter"
+                    />
+                  </a>
+                </li>
+                <li style="--bg: #f2f2f2">
+                  <a href="#">
+                    <img
+                      src="./images/clipboard.png"
+                      alt="copy.png"
+                      title="Copy Link"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="other-services">
+              <div class="section-head">
+                <h3 class="sidebar-title">Seller other services</h3>
+                <a href="#" class="view-all">see more</a>
+              </div>
+              <div class="service white-wrapper">
+                <div class="image">
+                  <img src="./images/slide.png" alt="service" />
+                </div>
+                <div class="details">
+                  <h4 class="title">
+                    Lorem ipsum dolor sit ame, consecteturLorem ipsum dolor...
+                  </h4>
+                  <div class="actions">
+                    <div class="stars">
+                      <img src="./images/star-gold.png" alt="star" />
+                      <span>4.9 (50)</span>
+                    </div>
+                    <div class="price">
+                      <img src="./images/Tag.png" alt="price tag" />
+                      <span class="price">$100</span>
+                    </div>
+                    <button class="favourite">
+                      <img src="./images/fav.png" alt="favourite" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="service white-wrapper">
+                <div class="image">
+                  <img src="./images/slide.png" alt="service" />
+                </div>
+                <div class="details">
+                  <h4 class="title">
+                    Lorem ipsum dolor sit ame, consecteturLorem ipsum dolor...
+                  </h4>
+                  <div class="actions">
+                    <div class="stars">
+                      <img src="./images/star-gold.png" alt="star" />
+                      <span>4.9 (50)</span>
+                    </div>
+                    <div class="price">
+                      <img src="./images/Tag.png" alt="price tag" />
+                      <span class="price">$100</span>
+                    </div>
+                    <button class="favourite">
+                      <img src="./images/fav.png" alt="favourite" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="service white-wrapper">
+                <div class="image">
+                  <img src="./images/slide.png" alt="service" />
+                </div>
+                <div class="details">
+                  <h4 class="title">
+                    Lorem ipsum dolor sit ame, consecteturLorem ipsum dolor...
+                  </h4>
+                  <div class="actions">
+                    <div class="stars">
+                      <img src="./images/star-gold.png" alt="star" />
+                      <span>4.9 (50)</span>
+                    </div>
+                    <div class="price">
+                      <img src="./images/Tag.png" alt="price tag" />
+                      <span class="price">$100</span>
+                    </div>
+                    <button class="favourite">
+                      <img src="./images/fav.png" alt="favourite" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="service white-wrapper">
+                <div class="image">
+                  <img src="./images/slide.png" alt="service" />
+                </div>
+                <div class="details">
+                  <h4 class="title">
+                    Lorem ipsum dolor sit ame, consecteturLorem ipsum dolor...
+                  </h4>
+                  <div class="actions">
+                    <div class="stars">
+                      <img src="./images/star-gold.png" alt="star" />
+                      <span>4.9 (50)</span>
+                    </div>
+                    <div class="price">
+                      <img src="./images/Tag.png" alt="price tag" />
+                      <span class="price">$100</span>
+                    </div>
+                    <button class="favourite">
+                      <img src="./images/fav.png" alt="favourite" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+        <div class="container">
+          <div class="suggested">
+            <div class="section-head">
+              <h3 class="section-title">Suggested Services</h3>
+              <a href="#" class="view-all">see more</a>
+            </div>
+            <div class="services-wrapper">
+              <div class="service white-wrapper">
+                <div class="image">
+                  <img src="./images/slide.png" alt="service" />
+                  <button class="favourite">
+                    <img src="./images/fav.png" alt="favourite" />
+                  </button>
+                </div>
+                <div class="info">
+                  <p class="title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                  <div class="details">
+                    <div class="stars">
+                      <img src="./images/star-gold.png" alt="star" />
+                      <span>4.9</span>
+                    </div>
+                    <div class="sells">
+                      <img src="./images/cart.png" alt="sells" />
+                      <span>300</span>
+                    </div>
+                  </div>
+                  <div class="seller">
+                    <div class="user">
+                      <img src="./images/jane-2.png" alt="seller" />
+                      <h4>Jane Smith</h4>
+                    </div>
+                    <div class="price">
+                      <img src="./images/Tag.png" alt="price tag" />
+                      <span class="price">$100</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="service white-wrapper">
+                <div class="image">
+                  <img src="./images/slide.png" alt="service" />
+                  <button class="favourite">
+                    <img src="./images/fav.png" alt="favourite" />
+                  </button>
+                </div>
+                <div class="info">
+                  <div class="title">
+                    <h4>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h4>
+                  </div>
+                  <div class="details">
+                    <div class="stars">
+                      <img src="./images/star-gold.png" alt="star" />
+                      <span>4.9</span>
+                    </div>
+                    <div class="sells">
+                      <img src="./images/cart.png" alt="sells" />
+                      <span>300</span>
+                    </div>
+                  </div>
+                  <div class="seller">
+                    <div class="user">
+                      <img src="./images/jane-2.png" alt="seller" />
+                      <h4>Jane Smith</h4>
+                    </div>
+                    <div class="price">
+                      <img src="./images/Tag.png" alt="price tag" />
+                      <span class="price">$100</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="service white-wrapper">
+                <div class="image">
+                  <img src="./images/slide.png" alt="service" />
+                  <button class="favourite">
+                    <img src="./images/fav.png" alt="favourite" />
+                  </button>
+                </div>
+                <div class="info">
+                  <div class="title">
+                    <h4>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h4>
+                  </div>
+                  <div class="details">
+                    <div class="stars">
+                      <img src="./images/star-gold.png" alt="star" />
+                      <span>4.9</span>
+                    </div>
+                    <div class="sells">
+                      <img src="./images/cart.png" alt="sells" />
+                      <span>300</span>
+                    </div>
+                  </div>
+                  <div class="seller">
+                    <div class="user">
+                      <img src="./images/jane-2.png" alt="seller" />
+                      <h4>Jane Smith</h4>
+                    </div>
+                    <div class="price">
+                      <img src="./images/Tag.png" alt="price tag" />
+                      <span class="price">$100</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="service white-wrapper">
+                <div class="image">
+                  <img src="./images/slide.png" alt="service" />
+                  <button class="favourite hearted">
+                    <img src="./images/heart.png" alt="favourite" />
+                  </button>
+                </div>
+                <div class="info">
+                  <div class="title">
+                    <h4>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h4>
+                  </div>
+                  <div class="details">
+                    <div class="stars">
+                      <img src="./images/star-gold.png" alt="star" />
+                      <span>4.9</span>
+                    </div>
+                    <div class="sells">
+                      <img src="./images/cart.png" alt="sells" />
+                      <span>300</span>
+                    </div>
+                  </div>
+                  <div class="seller">
+                    <div class="user">
+                      <img src="./images/jane-2.png" alt="seller" />
+                      <h4>Jane Smith</h4>
+                    </div>
+                    <div class="price">
+                      <img src="./images/Tag.png" alt="price tag" />
+                      <span class="price">$100</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./scripts/main.js" defer></script>
+  </body>
+</html>
