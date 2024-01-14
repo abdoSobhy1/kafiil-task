@@ -1,9 +1,9 @@
+// menu closing and openning function
 
 const menuToggle = document.querySelector('.toggle-menu');
 const menu = document.querySelector('.menu');
 const closeToggle = document.querySelector('.close');
 const overlay = document.querySelector('.overlay');
-
 
 menuToggle.addEventListener('click', () => {
     menu.style.display = 'flex';
@@ -32,6 +32,7 @@ const closeMenu = () => {
     overlay.classList.remove('show');
 };
 
+// Profile drop down
 
 const profileToggle = document.querySelector('.profile');
 const profileDropDown = document.querySelector('.drop-down');
@@ -47,6 +48,8 @@ profileToggle.addEventListener('click', (e) => {
         profileDropDownOpen = false;
     }
 });
+
+// Hidding the header on scroll down and showing it on scroll up
 
 let prevScrollPos = window.scrollY;
 
@@ -64,6 +67,8 @@ document.addEventListener('scroll', () => {
     prevScrollPos = currentScrollPos;
 });
 
+// Slider
+
 const slider = document.querySelector(".slider");
 const sliderInner = document.querySelector(".slider-inner");
 const slides = document.querySelectorAll(".slide");
@@ -72,6 +77,8 @@ const next = document.querySelector(".next");
 const dotsContainer = document.querySelector(".dots");
 
 let slideIndex = 0;
+
+// Creating dots based on the number of slides
 
 slides.forEach(function (_, index) {
     const dot = document.createElement("span");
@@ -83,6 +90,8 @@ slides.forEach(function (_, index) {
 const dots = document.querySelectorAll(".dots .dot");
 
 showSlide(slideIndex);
+
+// Adding event listeners to the buttons and dots to change the slides
 
 prev.addEventListener("click", function () {
     slideIndex--;
@@ -100,6 +109,8 @@ dots.forEach(function (dot, index) {
     });
 });
 
+// Function to change the state of the buttons based on the slide index
+
 function buttonState(button, enable) {
     button.disabled = !enable;
     !enable ? button.classList.add("disabled") : button.classList.remove("disabled");
@@ -109,8 +120,6 @@ function buttonState(button, enable) {
         button.firstElementChild.src = button === prev ? "images/chevron-left.png" : "images/chevron-right.png";
     }
 }
-
-
 
 function showSlide(index) {
     if (index == 0) {
@@ -135,6 +144,8 @@ function showSlide(index) {
     });
 }
 
+// Selecting The add-ons
+
 const selectAll = document.querySelector('#selectall');
 
 selectAll.addEventListener('click', (e) => {
@@ -143,6 +154,8 @@ selectAll.addEventListener('click', (e) => {
         checkbox.checked = selectAll.checked;
     });
 });
+
+// Adding functionality to the quantity buttons
 
 const decrementButton = document.querySelector('.decrement');
 const incrementButton = document.querySelector('.increment');
@@ -158,11 +171,12 @@ decrementButton.addEventListener('click', () => {
     }
 });
 
-
 incrementButton.addEventListener('click', () => {
     quantity.value++;
     price.innerHTML = quantity.value * 100;
 });
+
+// Creating the reviews
 
 const postReview = document.querySelector('.post-review');
 const reviewInput = document.querySelector('#review');
@@ -175,7 +189,6 @@ postReview.addEventListener('click', () => {
     const review = document.createElement('div');
     review.classList.add('review');
     review.innerHTML = `
-         <div class="review">
                   <div class="user">
                     <div class="image">
                       <img src="./images/user.png" alt="user" />
@@ -197,13 +210,14 @@ postReview.addEventListener('click', () => {
                         ${reviewInput.value}
                     </p>
                   </div>
-                </div>
     `;
     reviewInput.value = '';
     document.querySelector('.add-review').before(review);
     reviewInput.value = '';
 }
 );
+
+// Adding functionality to the favourite button
 
 const favouriteButton = document.querySelectorAll('.favourite');
 
